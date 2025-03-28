@@ -12,7 +12,7 @@ from pathlib import Path
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
-filename = "zad4_1/model.sv"
+filename = "model.sv"
 model = pickle.load(open(filename,'rb'))
 # otwieramy wcześniej wytrenowany model
 
