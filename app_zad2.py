@@ -22,7 +22,7 @@ def main():
     left, right = st.columns(2)
     prediction = st.container()
 
-    st.image("https://upload.wikimedia.org/wikipedia/commons/6/6a/Coronary_artery_disease.png")
+    st.image("https://dvl2h13awlxkt.cloudfront.net/assets/general-images/Knowledge/_1200x630_crop_center-center_82_none/Coronary-heart-disease.jpg?mtime=1657262027")
 
     with overview:
         st.title("Czy masz ryzyko choroby serca?")
